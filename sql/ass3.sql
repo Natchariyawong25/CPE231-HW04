@@ -10,6 +10,7 @@ CREATE VIEW assignment_a AS
 DROP VIEW assignment_a;
 -- check data in view
 SELECT * FROM assignment_a ;
+
 -- ข้อ b
 CREATE VIEW assignment_b AS 
 	SELECT	e1."Fname" ||' '|| e1."Lname" as "Employee_full_name" ,
